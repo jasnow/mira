@@ -1,16 +1,17 @@
 source 'https://rubygems.org'
 
-ruby "2.1.4"
+ruby '2.2.3'
 
+gem 'rails', '4.2.5'
 
-gem 'rails', '4.2.0'
-gem 'pg',             '0.17.1'
-gem 'sass-rails', '~> 5.0'
-gem 'uglifier', '>= 1.3.0'
-gem 'coffee-rails', '~> 4.1.0'
+gem 'pg'
+gem 'sqlite3'
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
 gem 'jquery-rails'
 gem 'turbolinks'
-gem 'sdoc', '~> 0.4.0', group: :doc
+gem 'sdoc', group: :doc
 
 # DBR: https://www.railstutorial.org/book/filling_in_the_layout
 gem 'bootstrap-sass'
@@ -45,7 +46,7 @@ group :development, :test do
   gem 'byebug'
 
   # Access an IRB console on exception pages or by using <%= console %> in views
-  gem 'web-console', '~> 2.0'
+  gem 'web-console'
 
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
