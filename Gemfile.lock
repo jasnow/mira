@@ -217,7 +217,7 @@ GEM
       rails (>= 3.2)
     shellany (0.0.1)
     slop (3.6.0)
-    spring (1.6.2)
+    spring (1.6.3)
     sprockets (3.5.2)
       concurrent-ruby (~> 1.0)
       rack (> 1, < 3)
