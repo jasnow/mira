@@ -39,7 +39,7 @@ GEM
     ansi (1.5.0)
     api-pagination (4.3.0)
     arel (6.0.3)
-    autoprefixer-rails (6.3.4)
+    autoprefixer-rails (6.3.5)
       execjs
     aws-sdk (2.2.30)
       aws-sdk-resources (= 2.2.30)
