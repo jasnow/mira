@@ -41,12 +41,12 @@ GEM
     arel (6.0.3)
     autoprefixer-rails (6.3.6)
       execjs
-    aws-sdk (2.3.2)
-      aws-sdk-resources (= 2.3.2)
-    aws-sdk-core (2.3.2)
+    aws-sdk (2.3.3)
+      aws-sdk-resources (= 2.3.3)
+    aws-sdk-core (2.3.3)
       jmespath (~> 1.0)
-    aws-sdk-resources (2.3.2)
-      aws-sdk-core (= 2.3.2)
+    aws-sdk-resources (2.3.3)
+      aws-sdk-core (= 2.3.3)
     aws-sdk-v1 (1.66.0)
       json (~> 1.4)
       nokogiri (>= 1.4.4)
@@ -236,7 +236,7 @@ GEM
       ref
     thor (0.19.1)
     thread_safe (0.3.5)
-    tilt (2.0.2)
+    tilt (2.0.3)
     turbolinks (2.5.3)
       coffee-rails
     tzinfo (1.2.2)
