@@ -39,7 +39,7 @@ GEM
     ansi (1.5.0)
     api-pagination (4.3.0)
     arel (6.0.3)
-    autoprefixer-rails (6.3.6.1)
+    autoprefixer-rails (6.3.6.2)
       execjs
     aws-sdk (2.3.9)
       aws-sdk-resources (= 2.3.9)
@@ -114,7 +114,7 @@ GEM
       thor (>= 0.14, < 2.0)
     json (1.8.3)
     json_pure (1.8.3)
-    kaminari (0.16.3)
+    kaminari (0.17.0)
       actionpack (>= 3.0.0)
       activesupport (>= 3.0.0)
     libv8 (3.16.14.15)
@@ -294,4 +294,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.12.3
+   1.12.5
