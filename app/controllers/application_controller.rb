@@ -5,6 +5,6 @@ class ApplicationController < ActionController::Base
 
   # DBR going to turn this off as want to POST uploads via curl
   # and only currently open to an admin user
-  # protect_from_forgery with: :exception
+  protect_from_forgery with: :exception
 
 end
