@@ -4,7 +4,7 @@ require 'test_helper'
 
 class Api::V1::DatasourcesEndpointsTest < ActionController::TestCase
 
-  include Devise::TestHelpers
+  include Devise::Test::ControllerHelpers
 
   setup do
     Delayed::Worker.delay_jobs = false # turn off queuing

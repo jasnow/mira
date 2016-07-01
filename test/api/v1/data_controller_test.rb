@@ -2,8 +2,7 @@ require 'test_helper'
 
 class Api::V1::DataControllerTest < ActionController::TestCase
 
-  include Devise::TestHelpers
-
+  include Devise::Test::ControllerHelpers
 
   setup do
     sign_in users(:one)
